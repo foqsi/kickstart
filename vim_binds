@@ -1,0 +1,52 @@
+##########VIM
+f | find in line
+; | next letter match
+, | previous letter match
+<C-w>v | split
+<C-w>s | horozontal split
+<C-w>o | close split
+<C-w><C-h/j/k/l to switch between buffers
+% | jumps to end of {
+_ | front of line
+
+v gc | comment
+
+vap | select around paragraph
+dap | delete around paragraph
+
+<leader>h | home
+
+<C-v> J/K | move lines
+<C-d><C-u> | half page jump with cursor in middle
+N for prev when searching
+n for next when searching
+
+<leader>p | paste over text
+<leader>s | replace word cursor is on
+
+<C-v>gc | comment / uncomment
+
+##########HARPOON
+<leader>a | adds file
+<C-e> | toggle quick menu
+<C-h> | file 1
+<C-t> | file 2
+<C-n> | file 3
+<C-s> | file 4
+
+
+##########Telescope
+<leader>pf project finder
+<leader>ps project search
+<C-p> git
+:Telescope colorscheme
+
+
+#########LSP
+gd | go to definition
+K  | hover
+<C-p> | previous suggest
+<C-n> | next suggestion
+<C-y> | yes
+<C-Space> | show suggestion
+
