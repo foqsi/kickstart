@@ -3,17 +3,19 @@ f | find in line
 ; | next letter match
 , | previous letter match
 <C-w>v | split
-<C-w>s | horozontal split
+<C-w>s | horizontal split
 <C-w>o | close split
 <C-w><C-h/j/k/l to switch between buffers
-% | jumps to end of {
+% | jumps to end of {}
 _ | front of line
+o | new line
 
 v gc | comment
 
 vap | select around paragraph
 dap | delete around paragraph
 
+<leader>s | replace word cursor is on
 <leader>h | home
 
 <C-v> J/K | move lines
@@ -21,6 +23,7 @@ dap | delete around paragraph
 N for prev when searching
 n for next when searching
 
+<leader>y | yank to system clipboard #ADD TO REBIND
 <leader>p | paste over text
 <leader>s | replace word cursor is on
 
@@ -49,4 +52,3 @@ K  | hover
 <C-n> | next suggestion
 <C-y> | yes
 <C-Space> | show suggestion
-
